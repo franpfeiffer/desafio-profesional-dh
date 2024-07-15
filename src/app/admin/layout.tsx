@@ -9,7 +9,7 @@ export default function AdminLayout({
 }>) {
   return (
     <>
-      <Nav>
+      <Nav logoSrc="./logo.png">
         <NavLink href="/admin">Dashboard</NavLink>
         <NavLink href="/admin/products">Products</NavLink>
         <NavLink href="/admin/users">Customers</NavLink>
