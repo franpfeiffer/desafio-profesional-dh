@@ -12,10 +12,10 @@ export default function Layout({
     <>
       <Nav logoSrc="./logo.png">
         <NavLink href="/">Home</NavLink>
-        <NavLink href="/products">Products</NavLink>
-        <NavLink href="/orders">My Orders</NavLink>
+        <NavLink href="/products">Productos</NavLink>
+        <NavLink href="/orders">Mis Compras</NavLink>
       </Nav>
-      <div className="container my-6">{children}</div>
+      <div className="container my-6 mb-24">{children}</div>
       <Footer />
     </>
   )

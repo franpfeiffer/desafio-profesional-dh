@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils"
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
-  title: "Desafio Digital House",
-  description: "Aplicacion del desafio profesional de digital house.",
+  title: "DevMinds Courses",
+  description: "A Ecommerce site where you can buy courses."
 }
 
 export default function RootLayout({

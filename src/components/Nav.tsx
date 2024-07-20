@@ -9,16 +9,16 @@ export function Nav({ children, logoSrc }: { children: ReactNode, logoSrc: strin
   return (
     <nav className="bg-primary text-primary-foreground flex justify-between items-center px-4 py-2">
       <Link href="/" passHref>
-        <img src={logoSrc} alt="Logo" className="h-20 w-20 " />
+        <img src={logoSrc} alt="Logo" className="h-20 w-20" />
       </Link>
       <div className="flex space-x-4 items-center">
         {children}
       </div>
-      <div className="flex space-x-4">
-        <button className="bg-secondary text-secondary-foreground py-2 px-4 rounded transition transform hover:bg-secondary-dark hover:text-secondary-foreground-dark hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary">
+      <div className="flex space-x-2 md:space-x-4 flex-col md:flex-row items-center">
+        <button className="bg-secondary text-secondary-foreground py-2 px-4 rounded transition transform hover:bg-secondary-dark hover:text-secondary-foreground-dark hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary text-sm md:text-base">
           Crear cuenta
         </button>
-        <button className="bg-secondary text-secondary-foreground py-2 px-4 rounded transition transform hover:bg-secondary-dark hover:text-secondary-foreground-dark hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary">
+        <button className="bg-secondary text-secondary-foreground py-2 px-4 rounded transition transform hover:bg-secondary-dark hover:text-secondary-foreground-dark hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary text-sm md:text-base">
           Iniciar sesión
         </button>
       </div>
